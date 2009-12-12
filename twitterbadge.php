@@ -91,7 +91,7 @@ function twitter_badge_options_page(){
 	// output the options page
 
 ?>
-<script src="<?php echo plugins_url('twitterbadge'); ?>/DHTMLcolors/201a.js" type="text/javascript"></script>
+<script src="<?php echo plugins_url('twitter-badge'); ?>/DHTMLcolors/201a.js" type="text/javascript"></script>
 <h1>Twitter Badge generator v0.1</h1>
 <br />Generate a Twitter Badge  for your site like the one in the right side.
 <div id="colorpicker201" class="colorpicker201"></div>
@@ -102,10 +102,10 @@ function twitter_badge_options_page(){
 <tr><td>Twitter account:</td><td><input type="text" id="tac" name="tac" value="<?php echo stripslashes(get_option(key_badge_twitter));?>" /></td> </tr>
 <tr><td>Badge text:</td><td> <input type="text" id="bt" name="bt" value="<?php echo stripslashes(get_option(key_badge_text));?>" /> </td> </tr>
 <tr><td>Color:</td><td> <input onclick="showColorGrid2('bc','bc');" type="text" id="bc" name="bc" value="<?php echo stripslashes(get_option(key_badge_color));?>" /> 
-<img  id="bcc" name="bcc" src="<?php echo plugins_url('twitterbadge'); ?>/DHTMLcolors/sel.gif" />
+<img  id="bcc" name="bcc" src="<?php echo plugins_url('twitter-badge'); ?>/DHTMLcolors/sel.gif" />
 </td> </tr>
 <tr><td>Text color:</td><td> <input onclick="showColorGrid2('tc','tc');" type="text" id="tc" name="tc" value="<?php echo stripslashes(get_option(key_badge_text_color));?>" /> 
-<img id="tcc" name="tcc" src="<?php echo plugins_url('twitterbadge'); ?>/DHTMLcolors/sel.gif" />
+<img id="tcc" name="tcc" src="<?php echo plugins_url('twitter-badge'); ?>/DHTMLcolors/sel.gif" />
 </td> </tr>
 <tr><td colspan=2 align="right"><input type='submit' name='info_update' value='Update Options' /></td></tr>
 </table>
