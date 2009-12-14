@@ -19,7 +19,7 @@ Features:
 * Link directly to you twitter account!
 * You can select background color, text color and your own text
 
-Works in Works in FF 3.5, Chromium, ie7,ie8, NO IE6.
+Works in Works in FF 3.5, Chromium  (the badge is not fixed), ie7,ie8, NO IE6.
 
 Other plugin [WP-PageScroll](http://wordpress.org/extend/plugins/wp-pagescroll/)
 
