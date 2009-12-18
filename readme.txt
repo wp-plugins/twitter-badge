@@ -3,7 +3,7 @@ Contributors: deambulando
 Donate link: https://www.paypal.com/cgi-bin/webscr?cmd=_xclick&business=neo22s%40gmail%2ecom&lc=EUR&item_name=wp-pagescroll&amount=5.00&currency_code=EUR&no_note=1&no_shipping=2&rm=1&weight_unit=lbs&bn=PP%2dBuyNowBF%3abtn_buynowCC_LG%2egif%3aNonHosted
 Tags: twitter, badge
 Requires at least: 2.8.5
-Tested up to: 2.8.6
+Tested up to: 2.9
 Stable tag: 0.1
 
 Generate a Twitter Badge for your WP, with any text you want, no Flash or image for the text.
